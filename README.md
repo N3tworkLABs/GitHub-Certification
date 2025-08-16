@@ -1,13 +1,11 @@
 
 ### 1) Configurar Git por primera vez
-
 ```md
 git --version
 
 # Identidad de tus commits
 git config --global user.name "Tu Nombre"
 git config --global user.email "tu-email@ejemplo.com"
-
 
 
 # Rama por defecto “main”
@@ -28,7 +26,6 @@ git config --global --list
 
 
 ### 2) Bajar un repositorio (clonar)
-
 ```md
 # HTTPS
 git clone https://github.com/USUARIO/REPO.git
@@ -142,6 +139,4 @@ Trabaja siempre dentro de la carpeta del repo clonado (por ejemplo ~/Projects/RE
 git config --global pull.rebase true
 ```
 Si te aparece algún error concreto al hacer pull/push, copia el mensaje y ajustamos el comando exacto.
-
-
 
