@@ -132,6 +132,14 @@ rm -rf .git       # elimina solo el seguimiento Git del HOME
 Trabaja siempre dentro de la carpeta del repo clonado (por ejemplo ~/Projects/REPO).
 
 
+### 10) Agregar, commitear y subir los cambios al repositorio
+```bash
+git status
+git add README.md
+git commit -m "Corrijo bloques de código a bash en README"
+git push
+```
+
 
 
 ### Consejo: activa el rebase por defecto para un flujo más limpio:
